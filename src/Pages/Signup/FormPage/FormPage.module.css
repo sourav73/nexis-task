@@ -1,0 +1,33 @@
+.number {
+  grid-template-columns: 1fr 4fr;
+  gap: 0.25rem;
+}
+
+.number input {
+  width: 100%;
+}
+
+.group {
+  width: 100%;
+}
+
+.group input {
+  width: 100%;
+}
+
+.group small {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--gray);
+  padding-left: 1rem;
+}
+
+.errorMessage {
+  grid-column: 1 / -1;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--gray);
+  padding-left: 1rem;
+}

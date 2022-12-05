@@ -1,0 +1,11 @@
+.form {
+  padding: 3.75rem 4.625rem;
+  box-shadow: 1px -10px 25px rgba(201, 201, 201, 0.25),
+    -1px 10px 25px rgba(147, 147, 147, 0.25);
+}
+
+@media (max-width: 960px) {
+  .form {
+    padding: 2rem 2.75rem;
+  }
+}

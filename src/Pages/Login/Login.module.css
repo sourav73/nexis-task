@@ -1,0 +1,124 @@
+.content {
+  min-height: 65vh;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 9.25rem;
+  padding-inline: 1rem;
+  margin-top: -4rem;
+}
+
+.image {
+  align-self: center;
+}
+
+.formWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.formWrapper form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formWrapper form.error {
+  border: 2px solid red;
+}
+
+.inputWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrapper > :not(:last-child) {
+  margin-bottom: 3.375rem;
+}
+
+.inputWrapper > input {
+  width: 100%;
+}
+
+.group small {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--gray);
+  padding-left: 1rem;
+}
+
+.success {
+  font-family: "Inter", sans-serif;
+  color: green;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.formWrapper form h5 {
+  padding-top: 3rem;
+}
+
+.group {
+  width: 100%;
+}
+
+.group input {
+  width: 100%;
+}
+
+.serverErrorMsg {
+  font-family: "Inter", sans-serif;
+  color: red;
+}
+
+.formFooter p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  color: var(--gray);
+}
+
+.formFooter p a {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1050px) {
+  .content {
+    column-gap: 4rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .content {
+    column-gap: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .content {
+    margin-top: 0;
+    min-height: 90vh;
+    grid-template-columns: 1fr;
+  }
+
+  .formWrapper form {
+    height: 100%;
+    padding: 2rem 2.25rem;
+  }
+
+  .formWrapper form h5 {
+    padding-top: 0;
+    margin-bottom: 4rem;
+  }
+
+  .formWrapper form button {
+    width: 100%;
+  }
+
+  .formFooter {
+    margin-top: 1rem;
+  }
+}

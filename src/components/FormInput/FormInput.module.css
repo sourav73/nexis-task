@@ -1,0 +1,14 @@
+.inputField {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #b4b4b4;
+  padding-left: 1rem;
+}
+
+.inputField::placeholder {
+  color: var(--light-gray);
+  line-height: 19px;
+}

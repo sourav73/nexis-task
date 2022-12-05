@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --primary-color: #1678cb;
+  --primary-light: #3b8bea;
+  --secondary-color: #68d6f5;
+  --gray: #7e7e7e;
+  --gray-2: #767676;
+  --light-gray: #b4b4b4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.grid-container {
+  display: grid;
+}

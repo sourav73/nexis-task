@@ -1,0 +1,56 @@
+.attendence {
+  margin-top: 2rem;
+}
+
+.attendenceTableContainer {
+  width: clamp(90%, 90vw, 100%);
+  margin-top: 4.875rem;
+  margin-inline: auto;
+}
+
+.attendenceTable {
+  width: 100%;
+}
+
+.attendenceTable,
+.attendenceTable th,
+.attendenceTable td {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+}
+
+.attendenceTable th,
+.attendenceTable td {
+  width: 33.3%;
+  text-align: center;
+}
+
+.attendenceTable th {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.attendenceTable td {
+  font-weight: 500;
+}
+
+.attendenceTable tr:nth-child(even) {
+  background: oldlace;
+}
+.attendenceTable tr:nth-child(odd) {
+  background: #ccc;
+}
+
+@media (max-width: 575px) {
+  .attendence > h5 {
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1.65rem;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+
+  .attendenceTable td {
+    font-size: 0.75rem;
+  }
+}
